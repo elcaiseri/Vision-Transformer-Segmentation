@@ -3,7 +3,7 @@
 Apply ViT Transformer PyTorch to Identify glomeruli in human kidney tissue images
 <br><br>
 
-## Datasets
+## Datasets and Weights
 **Training:** [hubmap-pytorch-vit-segmentation-train-datasets](https://www.kaggle.com/code/elcaiseri/hubmap-pytorch-vit-segmentation-starter-train/data)
 
 **Inference:** [hubmap-pytorch-vit-segmentation-inference-datasets](https://www.kaggle.com/code/elcaiseri/hubmap-pytorch-vit-segmentation-sub1/data)
