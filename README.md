@@ -1,27 +1,46 @@
 # Vision Transformer Segmentation
 
-Apply ViT Transformer PyTorch to Identify glomeruli in human kidney tissue images
-<br><br>
+[![GitHub stars](https://img.shields.io/github/stars/elcaiseri/Vision-Transformer-Segmentation)](https://github.com/elcaiseri/Vision-Transformer-Segmentation/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/elcaiseri/Vision-Transformer-Segmentation)](https://github.com/elcaiseri/Vision-Transformer-Segmentation/watchers)
+![PyTorch](https://img.shields.io/badge/PyTorch-blue.svg)
+![fastai](https://img.shields.io/badge/fastai-blue.svg)
+
+
+This repository applies the Vision Transformer (ViT) in PyTorch to identify glomeruli in human kidney tissue images for the HuBMAP Kaggle competition.
+
+## Table of Contents
+- [About](#about)
+- [Datasets and Weights](#datasets-and-weights)
+- [Evaluation](#evaluation)
+- [Score](#score)
+- [Usage](#usage)
+- [Training and Inference Notebooks](#training-and-inference-notebooks)
+- [Contribution and Upvote](#contribution-and-upvote)
+
+## About
+The Vision Transformer Segmentation project implements ViT in PyTorch for the HuBMAP Kaggle competition. The goal is to identify glomeruli in human kidney tissue images using the power of transformers in computer vision tasks.
 
 ## Datasets and Weights
-**Training:** [hubmap-pytorch-vit-segmentation-train-datasets](https://www.kaggle.com/code/elcaiseri/hubmap-pytorch-vit-segmentation-starter-train/data)
+- Training Dataset: [hubmap-pytorch-vit-segmentation-train-datasets](https://example-dataset-link)
+- Inference Dataset: [hubmap-pytorch-vit-segmentation-inference-datasets](https://example-inference-link)
 
-**Inference:** [hubmap-pytorch-vit-segmentation-inference-datasets](https://www.kaggle.com/code/elcaiseri/hubmap-pytorch-vit-segmentation-sub1/data)
+## Evaluation
+This competition is evaluated on the mean Dice coefficient, which compares the pixel-wise agreement between a predicted segmentation and its corresponding ground truth.
 
-## Evaluation 
-This competition is evaluated on **the mean Dice coefficient.** The Dice coefficient can be used to compare the pixel-wise agreement between a predicted segmentation and its corresponding ground truth.
+## LeadBoard-Score
+- Private Score: 0.9354
+- Public Score: 0.9064
 
-### Score
+## Usage
+To use this Vision Transformer Segmentation project, follow these steps:
+1. Clone the repository: `git clone https://github.com/elcaiseri/Vision-Transformer-Segmentation.git`
+2. Explore the implementation and code for ViT in PyTorch.
 
-| Private Score | Public Score |
-| --- | --- |
-| 0.9354 | 0.9064 |
+## Training and Inference Notebooks
+- [Training Notebook](hubmap-pytorch-vit-segmentation-train.ipynb)
+- [Inference Notebook](hubmap-pytorch-vit-segmentation-inference.ipynb)
 
+## Contribution and Upvote
+If you find this project helpful or interesting, consider giving it a star! :star:
 
-<hr>
-
-Copy & Edit directly [Kaggle@elcaiseri](https://www.kaggle.com/elcaiseri)
-1. **Training:** [hubmap-pytorch-vit-segmentation-train](https://www.kaggle.com/code/elcaiseri/hubmap-pytorch-vit-segmentation-starter-train)
-2. **Inference:** [hubmap-pytorch-vit-segmentation-inference](https://www.kaggle.com/code/elcaiseri/hubmap-pytorch-vit-segmentation-sub1)
-
-Don't forget to **UPVOTE** if you like it.
+© 2023 [elcaiseri](https://github.com/elcaiseri)
